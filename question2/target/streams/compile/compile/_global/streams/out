@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\yohan nayanjith\Desktop\CS-2020\2021_2nd_year_1st_sem\SCS2208-Rapid Application Development\Assignments\Recursive\question2\src\main\scala\Main.scala:17:14: not found: value Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m    if(n==0) Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

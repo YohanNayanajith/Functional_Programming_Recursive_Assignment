@@ -1,0 +1,59 @@
+[0m2021.07.18 19:18:46 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\yohan nayanjith\Desktop\CS-2020\2021_2nd_year_1st_sem\SCS2208-Rapid Application Development\Assignments\Recursive\question5' for client Visual Studio Code 1.58.1.[0m
+[0m2021.07.18 19:18:51 INFO  time: initialize in 5.71s[0m
+[0m2021.07.18 19:18:54 WARN  Build server is not auto-connectable.[0m
+Jul 18, 2021 7:19:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.18 20:15:53 WARN  no build target for: C:\Users\yohan nayanjith\Desktop\CS-2020\2021_2nd_year_1st_sem\SCS2208-Rapid Application Development\Assignments\Recursive\question5\src\main\scala\Main.scala[0m
+[0m2021.07.18 20:16:02 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jul 18, 2021 8:16:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..3]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..3]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..3]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:70)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 1.49s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 1.54s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 4.47s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 4.52s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 4.91s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 4.92s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 7.6s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 7.64s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 7.74s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 7.76s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 13s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 13s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 17s[0m
+[0m2021.07.18 20:16:10 INFO  time: code lens generation in 17s[0m
+Jul 18, 2021 8:16:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 167
+[0m2021.07.18 20:17:06 WARN  no build target for: C:\Users\yohan nayanjith\Desktop\CS-2020\2021_2nd_year_1st_sem\SCS2208-Rapid Application Development\Assignments\Recursive\question5\src\main\scala\Main.scala[0m
+[0m2021.07.18 20:17:40 WARN  no build target for: C:\Users\yohan nayanjith\Desktop\CS-2020\2021_2nd_year_1st_sem\SCS2208-Rapid Application Development\Assignments\Recursive\question5\src\main\scala\Main.scala[0m
+[0m2021.07.18 20:18:58 WARN  no build target for: C:\Users\yohan nayanjith\Desktop\CS-2020\2021_2nd_year_1st_sem\SCS2208-Rapid Application Development\Assignments\Recursive\question5\src\main\scala\Main.scala[0m
+[0m2021.07.18 20:19:12 WARN  no build target for: C:\Users\yohan nayanjith\Desktop\CS-2020\2021_2nd_year_1st_sem\SCS2208-Rapid Application Development\Assignments\Recursive\question5\src\main\scala\Main.scala[0m
